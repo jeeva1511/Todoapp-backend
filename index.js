@@ -23,7 +23,7 @@ mongoose.connect(mongodb)
 app.use(express.json());
 
 // Routes
-app.use('/todo',todoRoutes);
+app.use('/',todoRoutes);
 
 
 // connecting to server
